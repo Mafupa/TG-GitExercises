@@ -36,3 +36,15 @@ git stash pop stash@{1}\
 git commit -m "B1 Ex2 Added about.html and home.html"
 git push -u origin dev
 git stash pop
+git reset
+rm team.html
+
+## Bundle 2
+### Exercise 1
+git branch ft/bundle-2\
+git checkout ft/bundle-2\
+vim services.html\
+git add services.html\
+git commit -m "B2 Ex1 added services.html"\
+git push -u origin ft/bundle-2\
+
