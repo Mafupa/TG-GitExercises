@@ -49,3 +49,11 @@ git commit -m "B2 Ex1 added services.html"\
 git push -u origin ft/bundle-2\
 
 ### Exercise 2
+git checkout main\
+git pull\
+git branch ft/service-redesign\
+git checkout ft/service-redesign\
+vim services.html\
+git add services.html\
+git commit -m "B2 Ex2 Added changes to services.html"\
+git push -u origin ft/service-redesign\
