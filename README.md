@@ -21,6 +21,18 @@ git checkout dev\
 git branch test\
 git branch -d test\
  
-### Exercise 1
+### Exercise 2
 vim home.html\
-
+git add home.html\
+git stash
+vim about.html\
+git add about.html\
+git stash\
+vim team.html\
+git add team.html\
+git stash\
+git stash pop stash@{1}\
+git stash pop stash@{1}\
+git commit -m "B1 Ex2 Added about.html and home.html"
+git push -u origin dev
+git stash pop
