@@ -57,3 +57,30 @@ vim services.html\
 git add services.html\
 git commit -m "B2 Ex2 Added changes to services.html"\
 git push -u origin ft/service-redesign\
+git checkout main\
+vim services.html\
+git add services.html\
+git checkout ft/service-redesign\
+git diff main\
+git merge main\
+vim services.html\
+git add services.html\
+git commit -m "B2 Ex2 merge conflict resolution"\
+git push\
+
+# Bundle 3
+### Exercise 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
